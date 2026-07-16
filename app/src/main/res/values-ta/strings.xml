@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">பாக்கெட் லெட்ஜர்</string>
+    <string name="financial_storytelling">நிதி சார்ந்த கதைசொல்லல்</string>
+    
+    <!-- Onboarding & Splash -->
+    <string name="welcome_title">தனியுரிமைக்கு முதலிடம்</string>
+    <string name="welcome_desc">திரை ஸ்கிராப்பிங் இல்லை. SMS வாசிப்பு இல்லை. உங்கள் வங்கி கணக்கு பாதுகாப்பானது. பாக்கெட் லெட்ஜர் உங்கள் பரிவர்த்தனை தரவு அனைத்தையும் உங்கள் சாதனத்தில் 100% ஆஃப்லைனில் செயலாக்குகிறது.</string>
+    <string name="welcome_benefit1_title">சம்பள விவரக் கதைசொல்லல்</string>
+    <string name="welcome_benefit1_desc">விரிதாள்களுக்குப் பதிலாக எளிய உரையாடல் வடிவிலான சுருக்கங்கள்.</string>
+    <string name="welcome_benefit2_title">மறைமுக சந்தா வேட்டைக்காரன்</string>
+    <string name="welcome_benefit2_desc">பின்னணியில் நடக்கும் வீண் செலவுகளைத் துல்லியமாகக் கண்டறிதல்.</string>
+    <string name="welcome_benefit3_title">நுண் கசிவு கண்டறிவான்</string>
+    <string name="welcome_benefit3_desc">சிறிய தொடர் செலவுகள் உங்களை காலி செய்யும் முன் அவற்றைக் கட்டுப்படுத்துங்கள்.</string>
+    <string name="get_started">தொடங்குங்கள்</string>
+
+    <!-- Setup Wizard -->
+    <string name="setup_title">சம்பள அமைப்பு வழிகாட்டி</string>
+    <string name="setup_subtitle">உங்கள் உள்ளூர் நிதி சுயவிவரத்தை உள்ளமைப்போம்.</string>
+    <string name="field_name">உங்கள் பெயர்</string>
+    <string name="field_salary_amount">மாதாந்திர நிகர சம்பளம்</string>
+    <string name="field_payday">சம்பள நாள் (மாதத்தின் தேதி)</string>
+    <string name="field_currency">இயல்புநிலை நாணயம்</string>
+    <string name="field_goal">மாதாந்திர சேமிப்பு இலக்கு</string>
+    <string name="button_save_profile">சுயவிவரத்தைச் சேமித்துத் தொடங்கு</string>
+    <string name="validation_name_empty">தயவுசெய்து உங்கள் பெயரை உள்ளிடவும்</string>
+    <string name="validation_salary_zero">தயவுசெய்து சரியான சம்பளத் தொகையை உள்ளிடவும்</string>
+    <string name="validation_payday_invalid">சம்பள நாள் 1 முதல் 31க்குள் இருக்க வேண்டும்</string>
+    <string name="validation_goal_invalid">சேமிப்பு இலக்கு உங்கள் சம்பளத்தை விட அதிகமாக இருக்கக்கூடாது</string>
+
+    <!-- Home Screen -->
+    <string name="home_hello">வணக்கம், %1$s!</string>
+    <string name="home_payday_countdown">சம்பளத்திற்கு இன்னும்: %1$d நாட்கள்</string>
+    <string name="home_available_balance">கிடைக்கக்கூடிய இருப்பு</string>
+    <string name="home_salary">சம்பளம்</string>
+    <string name="home_total_spent">மொத்த செலவு</string>
+    <string name="home_savings_goal">சேமிப்பு இலக்கு: %1$s</string>
+    <string name="home_ai_story">AI கதை</string>
+    <string name="home_refresh_ai_story">AI கதையைப் புதுப்பி</string>
+    <string name="home_quick_actions">விரைவான செயல்கள்</string>
+    <string name="action_cash_entry">ரொக்கச் செலவைச் சேர்</string>
+    <string name="action_statement_import">அறிக்கையை இறக்குமதி செய்</string>
+    <string name="action_ghost_hunter">மறைமுக வேட்டைக்காரன்</string>
+    <string name="action_leak_detector">கசிவு கண்டறிவான்</string>
+    <string name="home_financial_health">நிதி ஆரோக்கிய மதிப்பெண்</string>
+    <string name="health_grade">தரம் %1$s</string>
+    <string name="health_status_good">உங்கள் பட்ஜெட் ஆரோக்கியம் வலுவாக உள்ளது! சேமிப்பைத் தொடருங்கள்.</string>
+    <string name="health_status_warning">உங்கள் சேமிப்பு இலக்கு வரம்பை நெருங்கிவிட்டீர்கள். சிறிய செலவுகளைக் குறைக்கவும்.</string>
+    <string name="health_status_danger">உங்கள் மாதாந்திர சேமிப்பு வரம்பை மீறிவிட்டீர்கள். கசிவு கண்டறிவானைச் சரிபார்க்கவும்.</string>
+
+    <!-- Ledger & Timeline -->
+    <string name="ledger_title">பாக்கெட் லெட்ஜர் காலவரிசை</string>
+    <string name="ledger_empty">பரிவர்த்தனைகள் எதுவும் இன்னும் பதிவு செய்யப்படவில்லை.</string>
+    <string name="ledger_add_first">தொடங்குவதற்கு ஒரு ரொக்கப் பரிவர்த்தனையைச் சேர்க்கவும் அல்லது அறிக்கையை இறக்குமதி செய்யவும்!</string>
+    <string name="ledger_category">வகை: %1$s</string>
+    <string name="ledger_notes">குறிப்புகள்: %1$s</string>
+    <string name="ledger_delete_confirm">பரிவர்த்தனையை நீக்கலாமா?</string>
+
+    <!-- Cash Entry -->
+    <string name="cash_entry_title">ரொக்கச் செலவைப் பதிவுசெய்</string>
+    <string name="cash_entry_subtitle">அனைத்து லெட்ஜர் பதிவுகளும் உள்ளூரிலேயே சேமிக்கப்படும்.</string>
+    <string name="field_merchant">வணிகர் பெயர்</string>
+    <string name="field_amount">தொகை</string>
+    <string name="field_category">வகை</string>
+    <string name="field_notes">விருப்பக் குறிப்புகள்</string>
+    <string name="button_record">பரிவர்த்தனையைப் பதிவுசெய்</string>
+    <string name="toast_recorded">ரொக்கப் பரிவர்த்தனை பதிவு செய்யப்பட்டது</string>
+
+    <!-- Ghost Subscription Hunter -->
+    <string name="hunter_title">மறைமுக சந்தா வேட்டைக்காரன்</string>
+    <string name="hunter_subtitle">பின்னணியில் தொடரும் மறைமுக சந்தா செலவுகளைக் கண்டறியும்.</string>
+    <string name="hunter_empty">செயலில் உள்ள மறைமுக சந்தாக்கள் எதுவும் கண்டறியப்படவில்லை.</string>
+    <string name="hunter_detected">%1$d சாத்தியமான சந்தா சேவைகள் கண்டறியப்பட்டுள்ளன</string>
+    <string name="hunter_potential">சாத்தியமான சந்தா</string>
+    <string name="hunter_frequency">%1$d முறை திரும்பத் திரும்ப நிகழ்ந்தது</string>
+
+    <!-- Micro Leak Detector -->
+    <string name="leak_title">நுண் கசிவு கண்டறிவான்</string>
+    <string name="leak_subtitle">தினசரி/வாராந்திர சிறிய தொடர் செலவுகளை அடையாளம் காணும்.</string>
+    <string name="leak_empty">முக்கியமான நுண் கசிவுகள் எதுவும் இன்னும் கண்டறியப்படவில்லை.</string>
+    <string name="leak_detected">%1$d தொடர் செலவு கசிவுகள் கண்டறியப்பட்டுள்ளன</string>
+    <string name="leak_severity_high">அதிக தீவிரக் கசிவு</string>
+    <string name="leak_severity_medium">நடுத்தர தீவிரக் கசிவு</string>
+    <string name="leak_severity_low">குறைந்த தீவிரக் கசிவு</string>
+
+    <!-- Reports -->
+    <string name="reports_title">பாக்கெட் லெட்ஜர் அறிக்கைகள்</string>
+    <string name="reports_subtitle">உங்கள் பரிவர்த்தனைகளின் மாதாந்திர வரைபடக் கண்ணோட்டம்.</string>
+    <string name="reports_empty">அறிக்கைகளுக்கான பரிவர்த்தனை தரவு எதுவும் கிடைக்கவில்லை.</string>
+    <string name="reports_category_breakdown">வகை வாரியான பகுப்பாய்வு</string>
+    <string name="reports_weekly_trend">வாராந்திர செலவுப் போக்கு</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_title">என் சுயவிவரம்</string>
+    <string name="profile_edit">சுயவிவரத்தைத் திருத்து</string>
+    <string name="profile_theme">டார்க் தீம்</string>
+    <string name="profile_active_status">செயலில் உள்ள சாண்ட்பாக்ஸ் அமர்வு</string>
+    <string name="settings_title">அமைப்புகள்</string>
+    <string name="settings_currency">நாணயத்தைக் காட்டு</string>
+    <string name="settings_notifications">ஸ்மார்ட் அறிவிப்புகள்</string>
+    <string name="settings_notifications_desc">தினசரி நுண் கசிவுக் குறிப்புகள் மற்றும் சம்பள விழிப்பூட்டல்கள்</string>
+    <string name="settings_language">பயன்பாட்டு மொழி</string>
+    <string name="settings_language_desc">தற்போது அமைக்கப்பட்டுள்ளது: %1$s</string>
+    <string name="settings_wizard">சம்பள அமைப்பு வழிகாட்டி</string>
+    <string name="settings_wizard_desc">முதல் முறை உள்ளமைவுகளை மீண்டும் தொடங்கவும்</string>
+    <string name="settings_privacy">தனியுரிமை &amp; சாண்ட்பாக்ஸ்</string>
+    <string name="settings_privacy_desc">ஆஃப்லைன் கிரிப்டோகிராஃபிக் உத்தரவாதக் கொள்கையைப் பார்க்கவும்</string>
+    <string name="settings_reset">வழிகாட்டியை மீட்டமை (டெமோ வழிகாட்டி)</string>
+    <string name="settings_version">பாக்கெட் லெட்ஜர் AI v1.4.0</string>
+    <string name="settings_warning">பாக்கெட் லெட்ஜர் ஆஃப்லைன் சாண்ட்பாக்ஸ் தரநிலைகளுக்கு இணங்குகிறது. அனைத்து விசைகளும் உள்ளூரிலேயே பாதுகாப்பானது.</string>
+    <string name="dialog_select_language">பயன்பாட்டு மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="dialog_cancel">ரத்து செய்</string>
+
+    <!-- Privacy Dashboard -->
+    <string name="privacy_title">தனியுரிமை சாண்ட்பாக்ஸ் டாஷ்போர்டு</string>
+    <string name="privacy_subtitle">உங்கள் ஆஃப்லைன் கிரிப்டோகிராஃபிக் பட்ஜெட் பாதுகாப்பு.</string>
+    <string name="privacy_status">நிலை: பாதுகாப்பான உள்ளூர் சாண்ட்பாக்ஸ்</string>
+    <string name="privacy_bullet_1_title">ஆஃப்லைன் கணக்கீடு</string>
+    <string name="privacy_bullet_1_desc">வெளிப்புற பரிவர்த்தனை கண்காணிப்பு இல்லை. அனைத்து AI செயலாக்கமும் சாதனத்திலேயே செய்யப்படுகிறது.</string>
+    <string name="privacy_bullet_2_title">திரை ஸ்கிராப்பிங் இல்லை</string>
+    <string name="privacy_bullet_2_desc">பிற பயன்பாடுகளைப் போலன்றி, பாக்கெட் லெட்ஜர் ஒருபோதும் உங்கள் வங்கி பயன்பாட்டுத் திரைகளில் இருந்து தரவைச் சேகரிக்காது.</string>
+    <string name="privacy_bullet_3_title">SMS கண்காணிப்பு இல்லை</string>
+    <string name="privacy_bullet_3_desc">வரும் SMS செய்திகளை நாங்கள் படிக்க மாட்டோம். அறிக்கைகள் கைமுறையாக ஏற்றப்பட வேண்டும்.</string>
+    <string name="privacy_bullet_4_title">உள்ளூர் சேமிப்பு மாதிரி</string>
+    <string name="privacy_bullet_4_desc">அனைத்து SQLite தரவும் சாதனத்தின் சாண்ட்பாக்ஸ் கோப்புறையில் பாதுகாப்பாகச் சேமிக்கப்படுகிறது.</string>
+    <string name="privacy_bullet_5_title">கிரிப்டோகிராஃபிக் பைப்லைன்</string>
+    <string name="privacy_bullet_5_desc">உள்ளூர் இறுதிப் புள்ளிகள் மற்றும் சான்றுகள் கீஸ்டோர் ஆதரவு நெறிமுறைகளுடன் குறியாக்கம் செய்யப்பட்டுள்ளன.</string>
+    
+    <!-- Navigation Descriptions -->
+    <string name="nav_desc_home">முகப்பு</string>
+    <string name="nav_desc_ledger">லெட்ஜர்</string>
+    <string name="nav_desc_reports">அறிக்கைகள்</string>
+    <string name="nav_desc_profile">சுயவிவரம்</string>
+    <string name="nav_desc_settings">அமைப்புகள்</string>
+</resources>

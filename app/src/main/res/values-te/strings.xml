@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">పాకెట్ లెడ్జర్</string>
+    <string name="financial_storytelling">ఆర్థిక కథనం</string>
+    
+    <!-- Onboarding & Splash -->
+    <string name="welcome_title">గోప్యతకు మొదటి ప్రాధాన్యత</string>
+    <string name="welcome_desc">స్క్రీన్ స్క్రాపింగ్ లేదు. SMS రీడింగ్ లేదు. మీ బ్యాంక్ ఖాతా సురక్షితం. పాకెట్ లెడ్జర్ మీ లావాదేవీల డేటాను మీ పరికరంలో 100% ఆఫ్‌లైన్‌లో ప్రాసెస్ చేస్తుంది.</string>
+    <string name="welcome_benefit1_title">శాలరీ స్టోరీ టెల్లింగ్</string>
+    <string name="welcome_benefit1_desc">స్ప్రెడ్‌షీట్‌ల స్థానంలో సంభాషణ రూపంలో నివేదికలు.</string>
+    <string name="welcome_benefit2_title">గుప్త చందా వేటగాడు</string>
+    <string name="welcome_benefit2_desc">నేపథ్య ఖర్చుల లీకేజీని ఖచ్చితంగా గుర్తించడం.</string>
+    <string name="welcome_benefit3_title">సూక్ష్మ లీకేజ్ డిటెక్టర్</string>
+    <string name="welcome_benefit3_desc">చిన్నచిన్న పునరావృత ఖర్చులను వెంటనే గుర్తించి నిరోధించండి.</string>
+    <string name="get_started">ప్రారంభించండి</string>
+
+    <!-- Setup Wizard -->
+    <string name="setup_title">జీతం సెటప్ విజార్డ్</string>
+    <string name="setup_subtitle">మీ స్థానిక ఆర్థిక ప్రొఫైల్‌ను సెటప్ చేద్దాం.</string>
+    <string name="field_name">మీ పేరు</string>
+    <string name="field_salary_amount">నెలవారీ నికర జీతం</string>
+    <string name="field_payday">జీతం వచ్చే రోజు (నెలలో తేదీ)</string>
+    <string name="field_currency">డిఫాల్ట్ కరెన్సీ</string>
+    <string name="field_goal">నెలవారీ పొదుపు లక్ష్యం</string>
+    <string name="button_save_profile">ప్రొఫైల్‌ను సేవ్ చేసి ప్రారంభించండి</string>
+    <string name="validation_name_empty">దయచేసి మీ పేరును నమోదు చేయండి</string>
+    <string name="validation_salary_zero">దయచేసి చెల్లుబాటు అయ్యే జీతం మొత్తాన్ని నమోదు చేయండి</string>
+    <string name="validation_payday_invalid">జీతం వచ్చే రోజు 1 మరియు 31 మధ్య ఉండాలి</string>
+    <string name="validation_goal_invalid">పొదుపు లక్ష్యం మీ జీతం కంటే ఎక్కువగా ఉండకూడదు</string>
+
+    <!-- Home Screen -->
+    <string name="home_hello">నమస్కారం, %1$s!</string>
+    <string name="home_payday_countdown">జీతం రావడానికి రోజులు: %1$d</string>
+    <string name="home_available_balance">అందుబాటులో ఉన్న నిల్వ</string>
+    <string name="home_salary">జీతం</string>
+    <string name="home_total_spent">మొత్తం ఖర్చు</string>
+    <string name="home_savings_goal">పొదుపు లక్ష్యం: %1$s</string>
+    <string name="home_ai_story">AI కథనం</string>
+    <string name="home_refresh_ai_story">AI కథనాన్ని రీఫ్రెష్ చేయి</string>
+    <string name="home_quick_actions">త్వరిత చర్యలు</string>
+    <string name="action_cash_entry">నగదు ఖర్చును చేర్చు</string>
+    <string name="action_statement_import">స్టేట్‌మెంట్‌ను ఇంపోర్ట్ చేయి</string>
+    <string name="action_ghost_hunter">గుప్త చందా వేటగాడు</string>
+    <string name="action_leak_detector">లీకేజ్ డిటెక్టర్</string>
+    <string name="home_financial_health">ఆర్థిక ఆరోగ్య స్కోర్</string>
+    <string name="health_grade">గ్రేడ్ %1$s</string>
+    <string name="health_status_good">మీ బడ్జెట్ ఆరోగ్యం బలంగా ఉంది! పొదుపును కొనసాగించండి.</string>
+    <string name="health_status_warning">మీరు మీ పొదుపు లక్ష్య పరిమితికి చేరువలో ఉన్నారు. చిన్న ఖర్చులను తగ్గించుకోండి.</string>
+    <string name="health_status_danger">మీరు నెలవారీ పొదుపు పరిమితిని దాటారు. లీకేజ్ డిటెక్టర్‌ను తనిఖీ చేయండి.</string>
+
+    <!-- Ledger & Timeline -->
+    <string name="ledger_title">పాకెట్ లెడ్జర్ కాలక్రమం</string>
+    <string name="ledger_empty">ఇంకా ఎటువంటి లావాదేవీలు నమోదు కాలేదు.</string>
+    <string name="ledger_add_first">ప్రారంభించడానికి నగదు లావాదేవీని జోడించండి లేదా స్టేట్‌మెంట్‌ను ఇంపోర్ట్ చేయండి!</string>
+    <string name="ledger_category">విభాగం: %1$s</string>
+    <string name="ledger_notes">గమనికలు: %1$s</string>
+    <string name="ledger_delete_confirm">లావాదేవీని తొలగించాలా?</string>
+
+    <!-- Cash Entry -->
+    <string name="cash_entry_title">నగదు ఖర్చును నమోదు చేయి</string>
+    <string name="cash_entry_subtitle">అన్ని లెడ్జర్ వివరాలు స్థానికంగా భద్రపరచబడతాయి.</string>
+    <string name="field_merchant">వ్యాపారి పేరు</string>
+    <string name="field_amount">మొత్తం</string>
+    <string name="field_category">విభాగం</string>
+    <string name="field_notes">ఐచ్ఛిక గమనికలు</string>
+    <string name="button_record">లావాదేవీని నమోదు చేయి</string>
+    <string name="toast_recorded">నగదు లావాదేవీ నమోదు చేయబడింది</string>
+
+    <!-- Ghost Subscription Hunter -->
+    <string name="hunter_title">గుప్త చందా వేటగాడు</string>
+    <string name="hunter_subtitle">దాచిన పునరావృత చందా ఖర్చులను గుర్తిస్తుంది.</string>
+    <string name="hunter_empty">యాక్టివ్ గుప్త చందాలు ఏవీ కనుగొనబడలేదు.</string>
+    <string name="hunter_detected">%1$d సంభావ్య చందా సేవలు కనుగొనబడ్డాయి</string>
+    <string name="hunter_potential">సంభావ్య చందా</string>
+    <string name="hunter_frequency">%1$d సార్లు పునరావృతమైంది</string>
+
+    <!-- Micro Leak Detector -->
+    <string name="leak_title">సూక్ష్మ లీకేజ్ డిటెక్టర్</string>
+    <string name="leak_subtitle">చిన్న చిన్న రోజువారీ/వారపు పునరావృత ఖర్చులను గుర్తిస్తుంది.</string>
+    <string name="leak_empty">ఇంకా ఎటువంటి కీలకమైన లీకులు కనుగొనబడలేదు.</string>
+    <string name="leak_detected">%1$d పునరావృత ఖర్చుల లీకులు కనుగొనబడ్డాయి</string>
+    <string name="leak_severity_high">అధిక తీవ్రత లీకేజీ</string>
+    <string name="leak_severity_medium">మధ్యస్థ తీవ్రత లీకేజీ</string>
+    <string name="leak_severity_low">తక్కువ తీవ్రత లీకేజీ</string>
+
+    <!-- Reports -->
+    <string name="reports_title">పాకెట్ లెడ్జర్ నివేదికలు</string>
+    <string name="reports_subtitle">మీ లావాదేవీల నెలవారీ దృశ్య విశ్లేషణ.</string>
+    <string name="reports_empty">నివేదికల కోసం ఎటువంటి లావాదేవీల డేటా అందుబాటులో లేదు.</string>
+    <string name="reports_category_breakdown">విభాగాల వారీగా విశ్లేషణ</string>
+    <string name="reports_weekly_trend">వారపు ఖర్చుల ధోరణి</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_title">నా ప్రొఫైల్</string>
+    <string name="profile_edit">ప్రొఫైల్‌ను సవరించు</string>
+    <string name="profile_theme">డార్క్ థీమ్</string>
+    <string name="profile_active_status">యాక్టివ్ శాండ్‌బాక్స్ సెషన్</string>
+    <string name="settings_title">సెట్టింగ్‌లు</string>
+    <string name="settings_currency">కరెన్సీని ప్రదర్శించు</string>
+    <string name="settings_notifications">స్మార్ట్ నోటిఫికేషన్‌లు</string>
+    <string name="settings_notifications_desc">రోజువారీ ఖర్చులు మరియు జీతం హెచ్చరికలు</string>
+    <string name="settings_language">యాప్ భాష</string>
+    <string name="settings_language_desc">ప్రస్తుతం సెట్ చేయబడినది: %1$s</string>
+    <string name="settings_wizard">జీతం సెటప్ విజార్డ్</string>
+    <string name="settings_wizard_desc">మొదటి సారి కాన్ఫిగరేషన్‌లను మళ్లీ రన్ చేయండి</string>
+    <string name="settings_privacy">గోప్యత &amp; శాండ్‌బాక్స్</string>
+    <string name="settings_privacy_desc">ఆఫ్‌లైన్ క్రిప్టోగ్రాఫిక్ భరోసా విధానాన్ని చూడండి</string>
+    <string name="settings_reset">ఆన్‌బోర్డింగ్‌ను రీసెట్ చేయి (డెమో గైడ్)</string>
+    <string name="settings_version">పాకెట్ లెడ్జర్ AI v1.4.0</string>
+    <string name="settings_warning">పాకెట్ లెడ్జర్ ఆఫ్‌లైన్ శాండ్‌బాక్స్ ప్రమాణాలకు అనుగుణంగా ఉంటుంది. అన్ని కీలు మరియు డేటా స్థానికంగా సురక్షితం.</string>
+    <string name="dialog_select_language">యాప్ భాషను ఎంచుకోండి</string>
+    <string name="dialog_cancel">రద్దు చేయి</string>
+
+    <!-- Privacy Dashboard -->
+    <string name="privacy_title">గోప్యతా శాండ్‌బాక్స్ డాష్‌బోర్డ్</string>
+    <string name="privacy_subtitle">మీ ఆఫ్‌లైన్ క్రిప్టోగ్రాఫిక్ బడ్జెట్ రక్షణ.</string>
+    <string name="privacy_status">స్థితి: సురక్షితమైన స్థానిక శాండ్‌బాక్స్</string>
+    <string name="privacy_bullet_1_title">ఆఫ్‌లైన్ లెక్కింపు</string>
+    <string name="privacy_bullet_1_desc">బాహ్య లావాదేవీల టెలిమెట్రీ లేదు. అన్ని AI ప్రాసెసింగ్ పరికరంలోనే జరుగుతుంది.</string>
+    <string name="privacy_bullet_2_title">స్క్రీన్ స్క్రాపింగ్ లేదు</string>
+    <string name="privacy_bullet_2_desc">ఇతర యాప్‌లలా కాకుండా, పాకెట్ లెడ్జర్ మీ బ్యాంకింగ్ యాప్ స్క్రీన్‌ల నుండి ఎప్పుడూ ఇన్‌పుట్‌లను సేకరించదు.</string>
+    <string name="privacy_bullet_3_title">SMS పర్యవేక్షణ లేదు</string>
+    <string name="privacy_bullet_3_desc">మేము వచ్చే SMS సందేశాలను చదవము. వివరాలను మాన్యువల్‌గా లోడ్ చేయాలి.</string>
+    <string name="privacy_bullet_4_title">స్థానిక నిల్వ నమూనా</string>
+    <string name="privacy_bullet_4_desc">అన్ని SQLite డేటా సురక్షితంగా పరికరం శాండ్‌బాక్స్ ఫోల్డర్‌లో సేవ్ చేయబడుతుంది.</string>
+    <string name="privacy_bullet_5_title">క్రిప్టోగ్రాఫిక్ పైప్‌లైన్</string>
+    <string name="privacy_bullet_5_desc">స్థానిక సమాచారం మరియు కీలు కీస్టోర్-ఆధారిత ప్రోటోకాల్స్‌తో ఎన్‌క్రిప్ట్ చేయబడతాయి.</string>
+    
+    <!-- Navigation Descriptions -->
+    <string name="nav_desc_home">హోమ్</string>
+    <string name="nav_desc_ledger">లెడ్జర్</string>
+    <string name="nav_desc_reports">నివేదికలు</string>
+    <string name="nav_desc_profile">ప్రొఫైల్</string>
+    <string name="nav_desc_settings">సెట్టింగ్‌లు</string>
+</resources>

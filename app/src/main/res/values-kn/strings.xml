@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">ಪಾಕೆಟ್ ಲೆಡ್ಜರ್</string>
+    <string name="financial_storytelling">ಹಣಕಾಸು ಕಥನ</string>
+    
+    <!-- Onboarding & Splash -->
+    <string name="welcome_title">ಗೌಪ್ಯತೆಗೆ ಮೊದಲ ಆದ್ಯತೆ</string>
+    <string name="welcome_desc">ಸ್ಕ್ರೀನ್ ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಇಲ್ಲ. SMS ಓದುವುದಿಲ್ಲ. ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆ ಸುರಕ್ಷಿತವಾಗಿದೆ. ಪಾಕೆಟ್ ಲೆಡ್ಜರ್ ನಿಮ್ಮ ಎಲ್ಲಾ ವಹಿವಾಟು ಡೇಟಾವನ್ನು ನಿಮ್ಮ ಸಾಧನದಲ್ಲೇ 100% ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುತ್ತದೆ.</string>
+    <string name="welcome_benefit1_title">ಸಂಬಳದ ಕಥನ</string>
+    <string name="welcome_benefit1_desc">ಸ್ಪ್ರೆಡ್‌ಶೀಟ್‌ಗಳ ಬದಲು ಸಂಭಾಷಣೆಯ ರೂಪದ ಸಾರಾಂಶಗಳು.</string>
+    <string name="welcome_benefit2_title">ಗುಪ್ತ ಚಂದಾದಾರಿಕೆ ಬೇಟೆಗಾರ</string>
+    <string name="welcome_benefit2_desc">ಹಿನ್ನೆಲೆ ವೆಚ್ಚದ ಸೋರಿಕೆಗಳ ನಿಖರ ಪತ್ತೆ ಹಚ್ಚುವಿಕೆ.</string>
+    <string name="welcome_benefit3_title">ಸೂಕ್ಷ್ಮ ಸೋರಿಕೆ ಪತ್ತೆಕಾರಕ</string>
+    <string name="welcome_benefit3_desc">ಸಣ್ಣ ಪುನರಾವರ್ತಿತ ವೆಚ್ಚಗಳು ನಿಮ್ಮನ್ನು ಖಾಲಿ ಮಾಡುವ ಮುನ್ನವೇ ತಡೆಯಿರಿ.</string>
+    <string name="get_started">ಪ್ರಾರಂಭಿಸಿ</string>
+
+    <!-- Setup Wizard -->
+    <string name="setup_title">ಸಂಬಳ ಸೆಟಪ್ ವಿಝಾರ್ಡ್</string>
+    <string name="setup_subtitle">ನಿಮ್ಮ ಸ್ಥಳೀಯ ಹಣಕಾಸು ಪ್ರೊಫೈಲ್ ಅನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡೋಣ.</string>
+    <string name="field_name">ನಿಮ್ಮ ಹೆಸರು</string>
+    <string name="field_salary_amount">ಮಾಸಿಕ ನಿವ್ವಳ ಸಂಬಳ</string>
+    <string name="field_payday">ಸಂಬಳ ದಿನ (ತಿಂಗಳ ದಿನಾಂಕ)</string>
+    <string name="field_currency">ಡೀಫಾಲ್ಟ್ ಕರೆನ್ಸಿ</string>
+    <string name="field_goal">ಮಾಸಿಕ ಉಳಿತಾಯದ ಗುರಿ</string>
+    <string name="button_save_profile">ಪ್ರೊಫೈಲ್ ಉಳಿಸಿ ಮತ್ತು ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="validation_name_empty">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="validation_salary_zero">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಸಂಬಳದ ಮೊತ್ತವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="validation_payday_invalid">ಸಂಬಳ ದಿನವು 1 ಮತ್ತು 31 ರ ನಡುವೆ ಇರಬೇಕು</string>
+    <string name="validation_goal_invalid">ಉಳಿತಾಯದ ಗುರಿ ನಿಮ್ಮ ಸಂಬಳಕ್ಕಿಂತ ಹೆಚ್ಚಿರಬಾರದು</string>
+
+    <!-- Home Screen -->
+    <string name="home_hello">ನಮಸ್ಕಾರ, %1$s!</string>
+    <string name="home_payday_countdown">ಸಂಬಳಕ್ಕೆ ದಿನಗಳು: %1$d</string>
+    <string name="home_available_balance">ಲಭ್ಯವಿರುವ ಬಾಕಿ</string>
+    <string name="home_salary">ಸಂಬಳ</string>
+    <string name="home_total_spent">ಒಟ್ಟು ಖರ್ಚು</string>
+    <string name="home_savings_goal">ಉಳಿತಾಯ ಗುರಿ: %1$s</string>
+    <string name="home_ai_story">AI ಕಥೆ</string>
+    <string name="home_refresh_ai_story">AI ಕಥೆ ಮರುಲೋಡ್ ಮಾಡಿ</string>
+    <string name="home_quick_actions">ತ್ವರಿತ ಕ್ರಿಯೆಗಳು</string>
+    <string name="action_cash_entry">ನಗದು ಖರ್ಚು ಸೇರಿಸಿ</string>
+    <string name="action_statement_import">ಸ್ಟೇಟ್‌ಮೆಂಟ್ ಆಮದು ಮಾಡಿ</string>
+    <string name="action_ghost_hunter">ಗುಪ್ತ ಬೇಟೆಗಾರ</string>
+    <string name="action_leak_detector">ಸೋರಿಕೆ ಪತ್ತೆಕಾರಕ</string>
+    <string name="home_financial_health">ಹಣಕಾಸು ಆರೋಗ್ಯದ ಸ್ಕೋರ್</string>
+    <string name="health_grade">ಗ್ರೇಡ್ %1$s</string>
+    <string name="health_status_good">ನಿಮ್ಮ ಬಜೆಟ್ ಆರೋಗ್ಯವು ಸದೃಢವಾಗಿದೆ! ಉಳಿತಾಯವನ್ನು ಮುಂದುವರಿಸಿ.</string>
+    <string name="health_status_warning">ನಿಮ್ಮ ಉಳಿತಾಯದ ಗುರಿಯ ಮಿತಿಗೆ ನೀವು ಹತ್ತಿರವಾಗಿದ್ದೀರಿ. ಸಣ್ಣ ಖರ್ಚುಗಳನ್ನು ಕಡಿಮೆ ಮಾಡಿ.</string>
+    <string name="health_status_danger">ನಿಮ್ಮ ಮಾಸಿಕ ಉಳಿತಾಯದ ಮಿತಿಯನ್ನು ನೀವು ಮೀರಿದ್ದೀರಿ. ಸೋರಿಕೆ ಪತ್ತೆಕಾರಕವನ್ನು ಪರಿಶೀಲಿಸಿ.</string>
+
+    <!-- Ledger & Timeline -->
+    <string name="ledger_title">ಪಾಕೆಟ್ ಲೆಡ್ಜರ್ ಟೈಮ್‌ಲೈನ್</string>
+    <string name="ledger_empty">ಇನ್ನೂ ಯಾವುದೇ ವಹಿವಾಟುಗಳನ್ನು ದಾಖಲಿಸಲಾಗಿಲ್ಲ.</string>
+    <string name="ledger_add_first">ಪ್ರಾರಂಭಿಸಲು ನಗದು ವಹಿವಾಟನ್ನು ಸೇರಿಸಿ ಅಥವಾ ಸ್ಟೇಟ್‌ಮೆಂಟ್ ಆಮದು ಮಾಡಿ!</string>
+    <string name="ledger_category">ವರ್ಗ: %1$s</string>
+    <string name="ledger_notes">ಟಿಪ್ಪಣಿಗಳು: %1$s</string>
+    <string name="ledger_delete_confirm">ವಹಿವಾಟನ್ನು ಅಳಿಸುವುದೇ?</string>
+
+    <!-- Cash Entry -->
+    <string name="cash_entry_title">ನಗದು ಖರ್ಚು ದಾಖಲಿಸಿ</string>
+    <string name="cash_entry_subtitle">ಎಲ್ಲಾ ಲೆಡ್ಜರ್ ನಮೂದುಗಳು ಸ್ಥಳೀಯವಾಗಿಯೇ ಉಳಿಯುತ್ತವೆ.</string>
+    <string name="field_merchant">ವ್ಯಾಪಾರಿಯ ಹೆಸರು</string>
+    <string name="field_amount">ಮೊತ್ತ</string>
+    <string name="field_category">ವರ್ಗ</string>
+    <string name="field_notes">ಐಚ್ಛಿಕ ಟಿಪ್ಪಣಿಗಳು</string>
+    <string name="button_record">ವಹಿವಾಟು ದಾಖಲಿಸಿ</string>
+    <string name="toast_recorded">ನಗದು ವಹಿವಾಟು ದಾಖಲಿಸಲಾಗಿದೆ</string>
+
+    <!-- Ghost Subscription Hunter -->
+    <string name="hunter_title">ಗುಪ್ತ ಚಂದಾದಾರಿಕೆ ಬೇಟೆಗಾರ</string>
+    <string name="hunter_subtitle">ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಪುನರಾವರ್ತಿತವಾಗುವ ಗುಪ್ತ ಚಂದಾದಾರಿಕೆ ವೆಚ್ಚಗಳನ್ನು ಪತ್ತೆ ಮಾಡುತ್ತದೆ.</string>
+    <string name="hunter_empty">ಯಾವುದೇ ಸಕ್ರಿಯ ಗುಪ್ತ ಚಂದಾದಾರಿಕೆಗಳು ಪತ್ತೆಯಾಗಿಲ್ಲ.</string>
+    <string name="hunter_detected">%1$d ಸಂಭಾವ್ಯ ಚಂದಾದಾರಿಕೆ ಸೇವೆಗಳನ್ನು ಪತ್ತೆ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="hunter_potential">ಸಂಭಾವ್ಯ ಚಂದಾದಾರಿಕೆ</string>
+    <string name="hunter_frequency">%1$d ಬಾರಿ ಪುನರಾವರ್ತಿತವಾಗಿದೆ</string>
+
+    <!-- Micro Leak Detector -->
+    <string name="leak_title">ಸೂಕ್ಷ್ಮ ಸೋರಿಕೆ ಪತ್ತೆಕಾರಕ</string>
+    <string name="leak_subtitle">ಸಣ್ಣ ಪುನರಾವರ್ತಿತ ದೈನಂದಿನ/ವಾರದ ವೆಚ್ಚಗಳನ್ನು ಗುರುತಿಸುತ್ತದೆ.</string>
+    <string name="leak_empty">ಯಾವುದೇ ಗಂಭೀರ ಸೂಕ್ಷ್ಮ ಸೋರಿಕೆಗಳು ಪತ್ತೆಯಾಗಿಲ್ಲ.</string>
+    <string name="leak_detected">%1$d ಪುನರಾವರ್ತಿತ ವೆಚ್ಚದ ಸೋರಿಕೆಗಳು ಪತ್ತೆಯಾಗಿವೆ</string>
+    <string name="leak_severity_high">ಹೆಚ್ಚಿನ ತೀವ್ರತೆಯ ಸೋರಿಕೆ</string>
+    <string name="leak_severity_medium">ಮಧ್ಯಮ ತೀವ್ರತೆಯ ಸೋರಿಕೆ</string>
+    <string name="leak_severity_low">ಕಡಿಮೆ ತೀವ್ರತೆಯ ಸೋರಿಕೆ</string>
+
+    <!-- Reports -->
+    <string name="reports_title">ಪಾಕೆಟ್ ಲೆಡ್ಜರ್ ವರದಿಗಳು</string>
+    <string name="reports_subtitle">ನಿಮ್ಮ ವಹಿವಾಟುಗಳ ಮಾಸಿಕ ದೃಶ್ಯ ಅವಲೋಕನ.</string>
+    <string name="reports_empty">ವರದಿಗಳಿಗಾಗಿ ಯಾವುದೇ ವಹಿವಾಟು ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ.</string>
+    <string name="reports_category_breakdown">ವರ್ಗವಾರು ವಿಶ್ಲೇಷಣೆ</string>
+    <string name="reports_weekly_trend">ವಾರದ ಖರ್ಚಿನ ಪ್ರವೃತ್ತಿ</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_title">ನನ್ನ ಪ್ರೊಫೈಲ್</string>
+    <string name="profile_edit">ಪ್ರೊಫೈಲ್ ಸಂಪಾದಿಸಿ</string>
+    <string name="profile_theme">ಡಾರ್ಕ್ ಥೀಮ್</string>
+    <string name="profile_active_status">ಸಕ್ರಿಯ ಸ್ಯಾಂಡ್‌ಬಾಕ್ಸ್ ಸೆಷನ್</string>
+    <string name="settings_title">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="settings_currency">ಕರೆನ್ಸಿ ಪ್ರದರ್ಶಿಸಿ</string>
+    <string name="settings_notifications">ಸ್ಮಾರ್ಟ್ ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="settings_notifications_desc">ದೈನಂದಿನ ಸಣ್ಣ ಸೋರಿಕೆಗಳು ಮತ್ತು ಸಂಬಳದ ಎಚ್ಚರಿಕೆಗಳು</string>
+    <string name="settings_language">ಅಪ್ಲಿಕೇಶನ್ ಭಾಷೆ</string>
+    <string name="settings_language_desc">ಪ್ರಸ್ತುತ ಹೊಂದಿಸಲಾಗಿದೆ: %1$s</string>
+    <string name="settings_wizard">ಸಂಬಳ ಸೆಟಪ್ ವಿಝಾರ್ಡ್</string>
+    <string name="settings_wizard_desc">ಮೊದಲ ಬಾರಿಯ ಕಾನ್ಫಿಗರೇಶನ್‌ಗಳನ್ನು ಮರುರನ್ ಮಾಡಿ</string>
+    <string name="settings_privacy">ಗೌಪ್ಯತೆ ಮತ್ತು ಸ್ಯಾಂಡ್‌ಬಾಕ್ಸ್</string>
+    <string name="settings_privacy_desc">ಆಫ್‌ಲೈನ್ ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕ್ ಭರವಸೆ ನೀತಿಯನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="settings_reset">ಆನ್‌ಬೋರ್ಡಿಂಗ್ ಮರುಹೊಂದಿಸಿ (ಡೆಮೊ ಮಾರ್ಗದರ್ಶಿ)</string>
+    <string name="settings_version">ಪಾಕೆಟ್ ಲೆಡ್ಜರ್ AI v1.4.0</string>
+    <string name="settings_warning">ಪಾಕೆಟ್ ಲೆಡ್ಜರ್ ಆಫ್‌ಲೈನ್ ಸ್ಯಾಂಡ್‌ಬಾಕ್ಸ್ ಮಾನದಂಡಗಳಿಗೆ ಬದ್ಧವಾಗಿದೆ. ಎಲ್ಲಾ ಕೀಗಳು ಮತ್ತು ಡೇಟಾ ಸ್ಥಳೀಯವಾಗಿ ಸುರಕ್ಷಿತವಾಗಿವೆ.</string>
+    <string name="dialog_select_language">ಅಪ್ಲಿಕೇಶನ್ ಭಾಷೆಯನ್ನು ಆರಿಸಿ</string>
+    <string name="dialog_cancel">ರದ್ದುಮಾಡಿ</string>
+
+    <!-- Privacy Dashboard -->
+    <string name="privacy_title">ಗೌಪ್ಯತೆ ಸ್ಯಾಂಡ್‌ಬಾಕ್ಸ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</string>
+    <string name="privacy_subtitle">ನಿಮ್ಮ ಆಫ್‌ಲೈನ್ ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕ್ ಬಜೆಟ್ ರಕ್ಷಣೆ.</string>
+    <string name="privacy_status">ಸ್ಥಿತಿ: ಸುರಕ್ಷಿತ ಸ್ಥಳೀಯ ಸ್ಯಾಂಡ್‌ಬಾಕ್ಸ್</string>
+    <string name="privacy_bullet_1_title">ಆಫ್‌ಲೈನ್ ಲೆಕ್ಕಾಚಾರ</string>
+    <string name="privacy_bullet_1_desc">ಯಾವುದೇ ಬಾಹ್ಯ ವಹಿವಾಟು ಟೆಲಿಮೆಟ್ರಿ ಇಲ್ಲ. ಎಲ್ಲಾ AI ಪ್ರಕ್ರಿಯೆಗಳು ಸಾಧನದಲ್ಲೇ ನಡೆಯುತ್ತವೆ.</string>
+    <string name="privacy_bullet_2_title">ಯಾವುದೇ ಸ್ಕ್ರೀನ್ ಸ್ಕ್ರ್ಯಾಪಿಂಗ್ ಇಲ್ಲ</string>
+    <string name="privacy_bullet_2_desc">ಇತರ ಆಪ್‌ಗಳಂತೆ, ಪಾಕೆಟ್ ಲೆಡ್ಜರ್ ಎಂದಿಗೂ ನಿಮ್ಮ ಬ್ಯಾಂಕಿಂಗ್ ಆಪ್‌ಗಳ ಸ್ಕ್ರೀನ್‌ನಿಂದ ಇನ್‌ಪುಟ್‌ಗಳನ್ನು ಲಾಗ್ ಮಾಡುವುದಿಲ್ಲ.</string>
+    <string name="privacy_bullet_3_title">ಯಾವುದೇ SMS ಮಾನಿಟರಿಂಗ್ ಇಲ್ಲ</string>
+    <string name="privacy_bullet_3_desc">ನಾವು ಬರುವ SMS ಸಂದೇಶಗಳನ್ನು ಓದುವುದಿಲ್ಲ. ವರದಿಗಳನ್ನು ಮ್ಯಾನುಯಲ್ ಆಗಿ ಲೋಡ್ ಮಾಡಬೇಕು.</string>
+    <string name="privacy_bullet_4_title">ಸ್ಥಳೀಯ ಸಂಗ್ರಹಣೆ ಮಾದರಿ</string>
+    <string name="privacy_bullet_4_desc">ಎಲ್ಲಾ SQLite ಡೇಟಾ ಸಾಲುಗಳನ್ನು ಸಾಧನದ ಸ್ಯಾಂಡ್‌ಬಾಕ್ಸ್ ಡೈರೆಕ್ಟರಿಯಲ್ಲಿ ಸುರಕ್ಷಿತವಾಗಿಡಲಾಗುತ್ತದೆ.</string>
+    <string name="privacy_bullet_5_title">ಕ್ರಿಪ್ಟೋಗ್ರಾಫಿಕ್ ಪೈಪ್‌ಲೈನ್</string>
+    <string name="privacy_bullet_5_desc">ಸ್ಥಳೀಯ ಅಂತ್ಯದ ಪಾಯಿಂಟ್‌ಗಳು ಮತ್ತು ರುಜುವಾತುಗಳು ಕೀಸ್ಟೋರ್ ಬೆಂಬಲಿತ ಪ್ರೋಟೋಕಾಲ್‌ಗಳೊಂದಿಗೆ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಆಗಿರುತ್ತವೆ.</string>
+    
+    <!-- Navigation Descriptions -->
+    <string name="nav_desc_home">ಮುಖಪುಟ</string>
+    <string name="nav_desc_ledger">ಲೆಡ್ಜರ್</string>
+    <string name="nav_desc_reports">ವರದಿಗಳು</string>
+    <string name="nav_desc_profile">ಪ್ರೊಫೈಲ್</string>
+    <string name="nav_desc_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "861393626459",
+    "project_id": "pocketledger-ai-48d67",
+    "storage_bucket": "pocketledger-ai-48d67.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861393626459:android:95343f9e68388d34dc267e",
+        "android_client_info": {
+          "package_name": "com.aistudio.pocketledger.vhkswx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNOws1twUplj-AWQ-RQVsfJuFeLNlU0Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">പോക്കറ്റ് ലെഡ്ജർ</string>
+    <string name="financial_storytelling">സാമ്പത്തിക വിവരണം</string>
+    
+    <!-- Onboarding & Splash -->
+    <string name="welcome_title">സ്വകാര്യതയ്ക്ക് പ്രഥമ പരിഗണന</string>
+    <string name="welcome_desc">സ്ക്രീൻ സ്ക്രാപ്പിംഗ് ഇല്ല. SMS വായനയില്ല. നിങ്ങളുടെ ബാങ്ക് അക്കൗണ്ട് സുരക്ഷിതമാണ്. പോക്കറ്റ് ലെഡ്ജർ നിങ്ങളുടെ എല്ലാ ഇടപാട് വിവരങ്ങളും നിങ്ങളുടെ ഉപകരണത്തിൽ 100% ഓഫ്‌ലൈനായി പ്രോസസ്സ് ചെയ്യുന്നു.</string>
+    <string name="welcome_benefit1_title">ശമ്പള വിവര വിവരണം</string>
+    <string name="welcome_benefit1_desc">സ്പ്രെഡ്ഷീറ്റുകൾക്ക് പകരം ലളിതമായ സംഭാഷണ രൂപത്തിലുള്ള സംഗ്രഹങ്ങൾ.</string>
+    <string name="welcome_benefit2_title">അദൃശ്യ സബ്‌സ്‌ക്രിപ്ഷൻ വേട്ടക്കാരൻ</string>
+    <string name="welcome_benefit2_desc">പശ്ചാത്തല ചോർച്ചകൾ കൃത്യമായി കണ്ടെത്തുന്നു.</string>
+    <string name="welcome_benefit3_title">ചെറിയ ചോർച്ചകൾ കണ്ടെത്തുന്ന സംവിധാനം</string>
+    <string name="welcome_benefit3_desc">ചെറിയ ആവർത്തിച്ചുള്ള ചെലവുകൾ നിങ്ങളെ ബാധിക്കുന്നതിന് മുമ്പ് കണ്ടെത്തുക.</string>
+    <string name="get_started">ആരംഭിക്കുക</string>
+
+    <!-- Setup Wizard -->
+    <string name="setup_title">ശമ്പള സജ്ജീകരണ വിസാർഡ്</string>
+    <string name="setup_subtitle">നിങ്ങളുടെ പ്രാദേശിക സാമ്പത്തിക പ്രൊഫൈൽ ക്രമീകരിക്കാം.</string>
+    <string name="field_name">നിങ്ങളുടെ പേര്</string>
+    <string name="field_salary_amount">പ്രതിമാസ ശമ്പളം</string>
+    <string name="field_payday">ശമ്പള തീയതി (മാസത്തിലെ തീയതി)</string>
+    <string name="field_currency">ഡിഫോൾട്ട് കറൻസി</string>
+    <string name="field_goal">പ്രതിമാസ സമ്പാദ്യ ലക്ഷ്യം</string>
+    <string name="button_save_profile">പ്രൊഫൈൽ സേവ് ചെയ്ത് ആരംഭിക്കുക</string>
+    <string name="validation_name_empty">ദയവായി നിങ്ങളുടെ പേര് നൽകുക</string>
+    <string name="validation_salary_zero">ദയവായി സാധുവായ ശമ്പള തുക നൽകുക</string>
+    <string name="validation_payday_invalid">ശമ്പള തീയതി 1 നും 31 നും ഇടയിലായിരിക്കണം</string>
+    <string name="validation_goal_invalid">സമ്പാദ്യ ലക്ഷ്യം ശമ്പളത്തേക്കാൾ കൂടാൻ പാടില്ല</string>
+
+    <!-- Home Screen -->
+    <string name="home_hello">ഹലോ, %1$s!</string>
+    <string name="home_payday_countdown">ശമ്പളത്തിന് ഇനി: %1$d ദിവസങ്ങൾ</string>
+    <string name="home_available_balance">ലഭ്യമായ ബാലൻസ്</string>
+    <string name="home_salary">ശമ്പളം</string>
+    <string name="home_total_spent">ആകെ ചെലവഴിച്ചത്</string>
+    <string name="home_savings_goal">സമ്പാദ്യ ലക്ഷ്യം: %1$s</string>
+    <string name="home_ai_story">AI സ്റ്റോറി</string>
+    <string name="home_refresh_ai_story">AI സ്റ്റോറി പുതുക്കുക</string>
+    <string name="home_quick_actions">പെട്ടെന്നുള്ള പ്രവർത്തനങ്ങൾ</string>
+    <string name="action_cash_entry">പണം ചെലവഴിച്ചത് ചേർക്കുക</string>
+    <string name="action_statement_import">സ്റ്റേറ്റ്മെന്റ് ഇറക്കുമതി ചെയ്യുക</string>
+    <string name="action_ghost_hunter">അദൃശ്യ വേട്ടക്കാരൻ</string>
+    <string name="action_leak_detector">ചോർച്ച കണ്ടെത്തുന്ന സംവിധാനം</string>
+    <string name="home_financial_health">സാമ്പത്തിക ആരോഗ്യ സ്കോർ</string>
+    <string name="health_grade">ഗ്രേഡ് %1$s</string>
+    <string name="health_status_good">നിങ്ങളുടെ ബഡ്ജറ്റ് സുരക്ഷിതമാണ്! സമ്പാദ്യം തുടരുക.</string>
+    <string name="health_status_warning">നിങ്ങൾ നിങ്ങളുടെ സമ്പാദ്യ ലക്ഷ്യത്തിന്റെ പരിധിക്ക് അടുത്താണ്. ചെറിയ ചെലവുകൾ കുറയ്ക്കുക.</string>
+    <string name="health_status_danger">നിങ്ങൾ പ്രതിമാസ സമ്പാദ്യ പരിധി കവിഞ്ഞു. ചോർച്ച കണ്ടെത്തുന്ന സംവിധാനം പരിശോധിക്കുക.</string>
+
+    <!-- Ledger & Timeline -->
+    <string name="ledger_title">പോക്കറ്റ് ലെഡ്ജർ ടൈംലൈൻ</string>
+    <string name="ledger_empty">ഇതുവരെ ഇടപാടുകളൊന്നും രേഖപ്പെടുത്തിയിട്ടില്ല.</string>
+    <string name="ledger_add_first">ആരംഭിക്കുന്നതിനായി ഒരു പണമിടപാട് ചേർക്കുകയോ സ്റ്റേറ്റ്മെന്റ് ഇറക്കുമതി ചെയ്യുകയോ ചെയ്യുക!</string>
+    <string name="ledger_category">വിഭാഗം: %1$s</string>
+    <string name="ledger_notes">കുറിപ്പുകൾ: %1$s</string>
+    <string name="ledger_delete_confirm">ഇടപാട് ഇല്ലാതാക്കണോ?</string>
+
+    <!-- Cash Entry -->
+    <string name="cash_entry_title">പണമിടപാട് രേഖപ്പെടുത്തുക</string>
+    <string name="cash_entry_subtitle">എല്ലാ ലെഡ്ജർ വിവരങ്ങളും നിങ്ങളുടെ ഉപകരണത്തിൽ മാത്രം സൂക്ഷിക്കുന്നു.</string>
+    <string name="field_merchant">വ്യാപാരിയുടെ പേര്</string>
+    <string name="field_amount">തുക</string>
+    <string name="field_category">വിഭാഗം</string>
+    <string name="field_notes">കുറിപ്പുകൾ (ഓപ്ഷണൽ)</string>
+    <string name="button_record">ഇടപാട് രേഖപ്പെടുത്തുക</string>
+    <string name="toast_recorded">പണമിടപാട് രേഖപ്പെടുത്തിയിരിക്കുന്നു</string>
+
+    <!-- Ghost Subscription Hunter -->
+    <string name="hunter_title">അദൃശ്യ സബ്‌സ്‌ക്രിപ്ഷൻ വേട്ടക്കാരൻ</string>
+    <string name="hunter_subtitle">മറഞ്ഞിരിക്കുന്ന ആവർത്തിച്ചുള്ള സബ്‌സ്‌ക്രിപ്ഷൻ ചെലവുകൾ കണ്ടെത്തുന്നു.</string>
+    <string name="hunter_empty">സജീവമായ അദൃശ്യ സബ്‌സ്‌ക്രിപ്ഷനുകളൊന്നും കണ്ടെത്തിയിട്ടില്ല.</string>
+    <string name="hunter_detected">%1$d സബ്‌സ്‌ക്രിപ്ഷനുകൾ കണ്ടെത്താൻ കഴിഞ്ഞിട്ടുണ്ട്</string>
+    <string name="hunter_potential">സാധ്യതയുള്ള സബ്‌സ്‌ക്രിപ്ഷൻ</string>
+    <string name="hunter_frequency">%1$d തവണ ആവർത്തിച്ചു</string>
+
+    <!-- Micro Leak Detector -->
+    <string name="leak_title">ചെറിയ ചോർച്ചകൾ കണ്ടെത്തുന്ന സംവിധാനം</string>
+    <string name="leak_subtitle">ചെറിയ ആവർത്തിച്ചുള്ള ദൈനംദിന/വാരാന്ത്യ ചെലവുകൾ കണ്ടെത്തുന്നു.</string>
+    <string name="leak_empty">പ്രധാനപ്പെട്ട ചോർച്ചകളൊന്നും കണ്ടെത്തിയിട്ടില്ല.</string>
+    <string name="leak_detected">%1$d ചോർച്ചകൾ കണ്ടെത്താൻ കഴിഞ്ഞിട്ടുണ്ട്</string>
+    <string name="leak_severity_high">ഉയർന്ന ചോർച്ച</string>
+    <string name="leak_severity_medium">മിതമായ ചോർച്ച</string>
+    <string name="leak_severity_low">കുറഞ്ഞ ചോർച്ച</string>
+
+    <!-- Reports -->
+    <string name="reports_title">പോക്കറ്റ് ലെഡ്ജർ റിപ്പോർട്ടുകൾ</string>
+    <string name="reports_subtitle">ഇടപാടുകളുടെ പ്രതിമാസ ഗ്രാഫിക്കൽ അവലോകനം.</string>
+    <string name="reports_empty">റിപ്പോർട്ടുകൾക്കായി ഇടപാട് വിവരങ്ങളൊന്നും ലഭ്യമല്ല.</string>
+    <string name="reports_category_breakdown">വിഭാഗം തിരിച്ചുള്ള വിവരണം</string>
+    <string name="reports_weekly_trend">വാരാന്ത്യ ചെലവ് രീതി</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_title">എന്റെ പ്രൊഫൈൽ</string>
+    <string name="profile_edit">പ്രൊഫൈൽ എഡിറ്റ് ചെയ്യുക</string>
+    <string name="profile_theme">ഡാർക്ക് തീം</string>
+    <string name="profile_active_status">സജീവമായ സാൻഡ്ബോക്സ് സെഷൻ</string>
+    <string name="settings_title">ക്രമീകരണങ്ങൾ</string>
+    <string name="settings_currency">കറൻസി തിരഞ്ഞെടുക്കുക</string>
+    <string name="settings_notifications">സ്മാർട്ട് അറിയിപ്പുകൾ</string>
+    <string name="settings_notifications_desc">ദൈനംദിന ചോർച്ചകളും ശമ്പള വിവരങ്ങളും</string>
+    <string name="settings_language">ആപ്പ് ഭാഷ</string>
+    <string name="settings_language_desc">നിലവിൽ സജ്ജീകരിച്ചിരിക്കുന്നത്: %1$s</string>
+    <string name="settings_wizard">ശമ്പള സജ്ജീകരണ വിസാർഡ്</string>
+    <string name="settings_wizard_desc">ആദ്യത്തെ ക്രമീകരണങ്ങൾ വീണ്ടും ആരംഭിക്കുക</string>
+    <string name="settings_privacy">സ്വകാര്യത &amp; സാൻഡ്ബോക്സ്</string>
+    <string name="settings_privacy_desc">ഓഫ്‌ലൈൻ ക്രിപ്റ്റോഗ്രാഫിക് നയം കാണുക</string>
+    <string name="settings_reset">തുടക്കത്തിൽ നിന്നുള്ള ഗൈഡ് റീസെറ്റ് ചെയ്യുക</string>
+    <string name="settings_version">പോക്കറ്റ് ലെഡ്ജർ AI v1.4.0</string>
+    <string name="settings_warning">പോക്കറ്റ് ലെഡ്ജർ ഓഫ്‌ലൈൻ സാൻഡ്ബോക്സ് മാനദണ്ഡങ്ങൾ പാലിക്കുന്നു. എല്ലാ വിവരങ്ങളും നിങ്ങളുടെ ഉപകരണത്തിൽ സുരക്ഷിതമാണ്.</string>
+    <string name="dialog_select_language">ആപ്പ് ഭാഷ തിരഞ്ഞെടുക്കുക</string>
+    <string name="dialog_cancel">റദ്ദാക്കുക</string>
+
+    <!-- Privacy Dashboard -->
+    <string name="privacy_title">സ്വകാര്യത സാൻഡ്ബോക്സ് ഡാഷ്‌ബോർഡ്</string>
+    <string name="privacy_subtitle">നിങ്ങളുടെ ഓഫ്‌ലൈൻ ക്രിപ്റ്റോഗ്രാഫിക് ബഡ്ജറ്റ് പരിരക്ഷണം.</string>
+    <string name="privacy_status">നില: സുരക്ഷിതമായ പ്രാദേശിക സാൻഡ്ബോക്സ്</string>
+    <string name="privacy_bullet_1_title">ഓഫ്‌ലൈൻ കണക്കുകൂട്ടൽ</string>
+    <string name="privacy_bullet_1_desc">ബാഹ്യ ഇടപാട് ട്രാക്കിംഗ് ഇല്ല. എല്ലാ AI പ്രോസസ്സിംഗും ഉപകരണത്തിൽ തന്നെ ചെയ്യുന്നു.</string>
+    <string name="privacy_bullet_2_title">സ്ക്രീൻ സ്ക്രാപ്പിംഗ് ഇല്ല</string>
+    <string name="privacy_bullet_2_desc">മറ്റ് ആപ്പുകളെപ്പോലെയല്ല, പോക്കറ്റ് ലെഡ്ജർ ഒരിക്കലും ബാങ്കിംഗ് ആപ്പ് സ്ക്രീനുകളിൽ നിന്ന് വിവരങ്ങൾ എടുക്കില്ല.</string>
+    <string name="privacy_bullet_3_title">SMS നിരീക്ഷണമില്ല</string>
+    <string name="privacy_bullet_3_desc">വരുന്ന SMS സന്ദേശങ്ങൾ ഞങ്ങൾ വായിക്കില്ല. സ്റ്റേറ്റ്മെന്റുകൾ സ്വമേധയാ ലോഡ് ചെയ്യണം.</string>
+    <string name="privacy_bullet_4_title">പ്രാദേശിക സംഭരണ മാതൃക</string>
+    <string name="privacy_bullet_4_desc">എല്ലാ SQLite വിവരങ്ങളും ഉപകരണത്തിൽ സുരക്ഷിതമായി സൂക്ഷിക്കുന്നു.</string>
+    <string name="privacy_bullet_5_title">ക്രിപ്റ്റോഗ്രാഫിക് പൈപ്പ്ലൈൻ</string>
+    <string name="privacy_bullet_5_desc">പ്രാദേശിക വിവരങ്ങൾ കീസ്റ്റോർ സുരക്ഷിത പ്രോട്ടോക്കോളുകൾ വഴി എൻക്രിപ്റ്റ് ചെയ്തിരിക്കുന്നു.</string>
+    
+    <!-- Navigation Descriptions -->
+    <string name="nav_desc_home">ഹോം</string>
+    <string name="nav_desc_ledger">ലെഡ്ജർ</string>
+    <string name="nav_desc_reports">റിപ്പോർട്ടുകൾ</string>
+    <string name="nav_desc_profile">പ്രൊഫൈൽ</string>
+    <string name="nav_desc_settings">ക്രമീകരണങ്ങൾ</string>
+</resources>

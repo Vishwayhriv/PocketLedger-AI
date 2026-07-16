@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">পকেটলেজার</string>
+    <string name="financial_storytelling">আর্থিক গল্পকথন</string>
+    
+    <!-- Onboarding & Splash -->
+    <string name="welcome_title">গোপনীয়তা সবার আগে</string>
+    <string name="welcome_desc">কোনো স্ক্রিন স্ক্র্যাপিং নেই। কোনো এসএমএস রিডিং নেই। আপনার ব্যাংক অ্যাকাউন্ট নিরাপদ। পকেটলেজার আপনার সমস্ত লেনদেনের ডেটা আপনার ডিভাইসে ১০০% অফলাইনে প্রসেস করে।</string>
+    <string name="welcome_benefit1_title">বেতন গল্পকথন</string>
+    <string name="welcome_benefit1_desc">স্প্রেডশীটের পরিবর্তে সহজ কথ্য সারাংশ।</string>
+    <string name="welcome_benefit2_title">অদৃশ্য সাবস্ক্রিপশন শিকারী</string>
+    <string name="welcome_benefit2_desc">অপ্রয়োজনীয় ব্যাকগ্রাউন্ড খরচ নিখুঁতভাবে চিহ্নিতকরণ।</string>
+    <string name="welcome_benefit3_title">ক্ষুদ্র খরচ লিকেজ ডিটেক্টর</string>
+    <string name="welcome_benefit3_desc">ছোট ছোট বারবার হওয়া খরচ আপনার পকেট খালি করার আগেই তা ধরুন।</string>
+    <string name="get_started">শুরু করুন</string>
+
+    <!-- Setup Wizard -->
+    <string name="setup_title">বেতন সেটআপ উইজার্ড</string>
+    <string name="setup_subtitle">আসুন আপনার স্থানীয় আর্থিক প্রোফাইল কনফিগার করি।</string>
+    <string name="field_name">আপনার নাম</string>
+    <string name="field_salary_amount">মাসিক নেট বেতন</string>
+    <string name="field_payday">বেতন প্রদানের দিন (মাসের দিন)</string>
+    <string name="field_currency">ডিফল্ট মুদ্রা</string>
+    <string name="field_goal">মাসিক সঞ্চয় লক্ষ্য</string>
+    <string name="button_save_profile">প্রোফাইল সংরক্ষণ করুন এবং শুরু করুন</string>
+    <string name="validation_name_empty">দয়া করে আপনার নাম লিখুন</string>
+    <string name="validation_salary_zero">দয়া করে একটি সঠিক বেতনের পরিমাণ লিখুন</string>
+    <string name="validation_payday_invalid">বেতন প্রদানের দিন অবশ্যই ১ থেকে ৩১ এর মধ্যে হতে হবে</string>
+    <string name="validation_goal_invalid">সঞ্চয় লক্ষ্য আপনার বেতনের বেশি হতে পারে না</string>
+
+    <!-- Home Screen -->
+    <string name="home_hello">হ্যালো, %1$s!</string>
+    <string name="home_payday_countdown">বেতন পেতে বাকি দিন: %1$d</string>
+    <string name="home_available_balance">অবশিষ্ট ব্যালেন্স</string>
+    <string name="home_salary">বেতন</string>
+    <string name="home_total_spent">মোট খরচ</string>
+    <string name="home_savings_goal">সঞ্চয় লক্ষ্য: %1$s</string>
+    <string name="home_ai_story">এআই স্টোরি</string>
+    <string name="home_refresh_ai_story">এআই স্টোরি রিফ্রেশ করুন</string>
+    <string name="home_quick_actions">দ্রুত অ্যাকশন</string>
+    <string name="action_cash_entry">নগদ খরচ যোগ করুন</string>
+    <string name="action_statement_import">স্টেটমেন্ট আমদানি করুন</string>
+    <string name="action_ghost_hunter">অদৃশ্য খরচ শিকারী</string>
+    <string name="action_leak_detector">লিকেজ ডিটেক্টর</string>
+    <string name="home_financial_health">আর্থিক স্বাস্থ্য স্কোর</string>
+    <string name="health_grade">গ্রেড %1$s</string>
+    <string name="health_status_good">আপনার বাজেট স্বাস্থ্য শক্তিশালী দেখাচ্ছে! সঞ্চয় অব্যাহত রাখুন।</string>
+    <string name="health_status_warning">আপনি আপনার সঞ্চয় লক্ষ্যের সীমার কাছাকাছি আছেন। ছোট ছোট খরচ কমানোর কথা ভাবুন।</string>
+    <string name="health_status_danger">আপনি মাসিক সঞ্চয় সীমা অতিক্রম করেছেন। লিকেজ ডিটেক্টর পরীক্ষা করুন।</string>
+
+    <!-- Ledger & Timeline -->
+    <string name="ledger_title">পকেটলেজার টাইমলাইন</string>
+    <string name="ledger_empty">এখনো কোনো লেনদেন রেকর্ড করা হয়নি।</string>
+    <string name="ledger_add_first">শুরু করতে একটি নগদ লেনদেন যোগ করুন বা একটি স্টেটমেন্ট আমদানি করুন!</string>
+    <string name="ledger_category">শ্রেণী: %1$s</string>
+    <string name="ledger_notes">নোট: %1$s</string>
+    <string name="ledger_delete_confirm">লেনদেন মুছে ফেলবেন?</string>
+
+    <!-- Cash Entry -->
+    <string name="cash_entry_title">নগদ খরচ রেকর্ড করুন</string>
+    <string name="cash_entry_subtitle">সমস্ত লেজার এন্ট্রি স্থানীয়ভাবে সংরক্ষিত থাকে।</string>
+    <string name="field_merchant">বিক্রেতার নাম</string>
+    <string name="field_amount">পরিমাণ</string>
+    <string name="field_category">শ্রেণী</string>
+    <string name="field_notes">ঐচ্ছিক নোট</string>
+    <string name="button_record">লেনদেন রেকর্ড করুন</string>
+    <string name="toast_recorded">নগদ লেনদেন রেকর্ড করা হয়েছে</string>
+
+    <!-- Ghost Subscription Hunter -->
+    <string name="hunter_title">অদৃশ্য সাবস্ক্রিপশন শিকারী</string>
+    <string name="hunter_subtitle">লুকানো পুনরাবৃত্ত সাবস্ক্রিপশন খরচ সনাক্ত করে।</string>
+    <string name="hunter_empty">কোনো সক্রিয় অদৃশ্য সাবস্ক্রিপশন সনাক্ত করা যায়নি।</string>
+    <string name="hunter_detected">%1$dটি সম্ভাব্য সাবস্ক্রিপশন পরিষেবা সনাক্ত করা হয়েছে</string>
+    <string name="hunter_potential">সম্ভাব্য সাবস্ক্রিপশন</string>
+    <string name="hunter_frequency">%1$d বার পুনরাবৃত্ত হয়েছে</string>
+
+    <!-- Micro Leak Detector -->
+    <string name="leak_title">ক্ষুদ্র লিকেজ ডিটেক্টর</string>
+    <string name="leak_subtitle">ছোট দৈনিক/সাপ্তাহিক পুনরাবৃত্ত খরচ সনাক্ত করে।</string>
+    <string name="leak_empty">এখনো কোনো গুরুতর লিকেজ সনাক্ত করা যায়নি।</string>
+    <string name="leak_detected">%1$dটি পুনরাবৃত্ত খরচ লিকেজ সনাক্ত করা হয়েছে</string>
+    <string name="leak_severity_high">উচ্চ তীব্রতার লিকেজ</string>
+    <string name="leak_severity_medium">মাঝারি তীব্রতার লিকেজ</string>
+    <string name="leak_severity_low">কম তীব্রতার লিকেজ</string>
+
+    <!-- Reports -->
+    <string name="reports_title">পকেটলেজার রিপোর্ট</string>
+    <string name="reports_subtitle">আপনার লেনদেনের মাসিক গ্রাফিকাল রূপরেখা।</string>
+    <string name="reports_empty">রিপোর্টের জন্য কোনো লেনদেন ডেটা উপলব্ধ নেই।</string>
+    <string name="reports_category_breakdown">শ্রেণীভিত্তিক বিশ্লেষণ</string>
+    <string name="reports_weekly_trend">সাপ্তাহিক খরচের ধারা</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_title">আমার প্রোফাইল</string>
+    <string name="profile_edit">প্রোফাইল সম্পাদনা করুন</string>
+    <string name="profile_theme">ডার্ক থিম</string>
+    <string name="profile_active_status">সক্রিয় স্যান্ডবক্স সেশন</string>
+    <string name="settings_title">সেটিংস</string>
+    <string name="settings_currency">মুদ্রা প্রদর্শন করুন</string>
+    <string name="settings_notifications">স্মার্ট নোটিফিকেশন</string>
+    <string name="settings_notifications_desc">দৈনিক লিকেজ এবং বেতন সংক্রান্ত অ্যালার্ট</string>
+    <string name="settings_language">অ্যাপের ভাষা</string>
+    <string name="settings_language_desc">বর্তমানে সেট করা আছে: %1$s</string>
+    <string name="settings_wizard">বেতন সেটআপ উইজার্ড</string>
+    <string name="settings_wizard_desc">প্রথমবার কনফিগারেশন পুনরায় চালু করুন</string>
+    <string name="settings_privacy">গোপনীয়তা এবং স্যান্ডবক্স</string>
+    <string name="settings_privacy_desc">অফলাইন ক্রিপ্টোগ্রাফিক সুরক্ষা নীতি দেখুন</string>
+    <string name="settings_reset">অনবোর্ডিং রিসেট করুন (ডেমো নির্দেশিকা)</string>
+    <string name="settings_version">পকেটলেজার এআই v1.4.0</string>
+    <string name="settings_warning">পকেটলেজার অফলাইন স্যান্ডবক্স মানদণ্ড মেনে চলে। সমস্ত কী এবং ডেটা স্থানীয়ভাবে সুরক্ষিত।</string>
+    <string name="dialog_select_language">অ্যাপের ভাষা নির্বাচন করুন</string>
+    <string name="dialog_cancel">বাতিল করুন</string>
+
+    <!-- Privacy Dashboard -->
+    <string name="privacy_title">গোপনীয়তা স্যান্ডবক্স ড্যাশবোর্ড</string>
+    <string name="privacy_subtitle">আপনার অফলাইন ক্রিপ্টোগ্রাফিক বাজেট সুরক্ষা।</string>
+    <string name="privacy_status">অবস্থা: সুরক্ষিত স্থানীয় স্যান্ডবক্স</string>
+    <string name="privacy_bullet_1_title">অফলাইন হিসাব</string>
+    <string name="privacy_bullet_1_desc">কোনো বাহ্যিক লেনদেন ট্র্যাকিং নেই। সমস্ত এআই প্রসেসিং ডিভাইসেই সম্পন্ন হয়।</string>
+    <string name="privacy_bullet_2_title">কোনো স্ক্রিন স্ক্র্যাপিং নেই</string>
+    <string name="privacy_bullet_2_desc">অন্যান্য অ্যাপের মতো পকেটলেজার কখনই আপনার ব্যাংকিং অ্যাপের স্ক্রিন থেকে তথ্য সংগ্রহ করে না।</string>
+    <string name="privacy_bullet_3_title">কোনো এসএমএস নজরদারি নেই</string>
+    <string name="privacy_bullet_3_desc">আমরা কোনো এসএমএস বার্তা পড়ি না। ব্যাংক বিবরণী ব্যবহারকারীকে নিজে লোড করতে হয়।</string>
+    <string name="privacy_bullet_4_title">স্থানীয় স্টোরেজ মডেল</string>
+    <string name="privacy_bullet_4_desc">সমস্ত SQLite লেনদেন ডেটা ডিভাইসের স্যান্ডবক্স ফোল্ডারে সুরক্ষিতভাবে রাখা হয়।</string>
+    <string name="privacy_bullet_5_title">ক্রিপ্টোগ্রাফিক পাইপলাইন</string>
+    <string name="privacy_bullet_5_desc">স্থানীয় তথ্য এবং পাসওয়ার্ড কীস্টোর-সুরক্ষিত প্রোটোকলের মাধ্যমে এনক্রিপ্ট করা হয়।</string>
+    
+    <!-- Navigation Descriptions -->
+    <string name="nav_desc_home">হোম</string>
+    <string name="nav_desc_ledger">লেজার</string>
+    <string name="nav_desc_reports">রিপোর্ট</string>
+    <string name="nav_desc_profile">প্রোফাইল</string>
+    <string name="nav_desc_settings">সেটিংস</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "PocketLedger AI",
+  "description": "AI-powered offline-first personal financial storytelling assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

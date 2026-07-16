@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">PocketLedger AI</string>
+    <string name="financial_storytelling">FINANCIAL STORYTELLING</string>
+    
+    <!-- Onboarding & Splash -->
+    <string name="welcome_title">Privacy First</string>
+    <string name="welcome_desc">No screen scraping. No SMS reading. Your bank account is safe. PocketLedger processes all transaction data 100% offline on your device.</string>
+    <string name="welcome_benefit1_title">Salary Storytelling</string>
+    <string name="welcome_benefit1_desc">Conversational summaries instead of spreadsheets.</string>
+    <string name="welcome_benefit2_title">Ghost Subscription Hunter</string>
+    <string name="welcome_benefit2_desc">Failsafe detection of background leak traps.</string>
+    <string name="welcome_benefit3_title">Micro Leak Detector</string>
+    <string name="welcome_benefit3_desc">Catch small repeating expenses before they drain you.</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Setup Wizard -->
+    <string name="setup_title">Salary Setup Wizard</string>
+    <string name="setup_subtitle">Let\'s configure your local financial profile.</string>
+    <string name="field_name">Your Name</string>
+    <string name="field_salary_amount">Monthly Net Salary</string>
+    <string name="field_payday">Salary Payday (Day of Month)</string>
+    <string name="field_currency">Default Currency</string>
+    <string name="field_goal">Monthly Savings Goal</string>
+    <string name="button_save_profile">Save Profile &amp; Start</string>
+    <string name="validation_name_empty">Please enter your name</string>
+    <string name="validation_salary_zero">Please enter a valid salary amount</string>
+    <string name="validation_payday_invalid">Payday must be between 1 and 31</string>
+    <string name="validation_goal_invalid">Savings goal cannot exceed your salary</string>
+
+    <!-- Home Screen -->
+    <string name="home_hello">Hello, %1$s!</string>
+    <string name="home_payday_countdown">Days to Payday: %1$d</string>
+    <string name="home_available_balance">Available Balance</string>
+    <string name="home_salary">Salary</string>
+    <string name="home_total_spent">Total Spent</string>
+    <string name="home_savings_goal">Savings Goal: %1$s</string>
+    <string name="home_ai_story">AI Story</string>
+    <string name="home_refresh_ai_story">Refresh AI Story</string>
+    <string name="home_quick_actions">Quick Actions</string>
+    <string name="action_cash_entry">Add Cash Exp</string>
+    <string name="action_statement_import">Import PDF/TXT</string>
+    <string name="action_ghost_hunter">Ghost Hunter</string>
+    <string name="action_leak_detector">Leak Detector</string>
+    <string name="home_financial_health">Financial Health Score</string>
+    <string name="health_grade">Grade %1$s</string>
+    <string name="health_status_good">Your budget health is looking strong! Keep up the savings.</string>
+    <string name="health_status_warning">You are close to your savings goal limit. Consider trimming minor leak expenses.</string>
+    <string name="health_status_danger">You have exceeded your monthly saving cap. Check the Leak Detector.</string>
+
+    <!-- Ledger & Timeline -->
+    <string name="ledger_title">PocketLedger Timeline</string>
+    <string name="ledger_empty">Import your first statement to begin your Salary Story.</string>
+    <string name="ledger_add_first">Add a cash transaction or import a statement to get started!</string>
+    <string name="ledger_category">Category: %1$s</string>
+    <string name="ledger_notes">Notes: %1$s</string>
+    <string name="ledger_delete_confirm">Delete transaction?</string>
+
+    <!-- Cash Entry -->
+    <string name="cash_entry_title">Record Cash Expense</string>
+    <string name="cash_entry_subtitle">All ledger entries remain locally cached.</string>
+    <string name="field_merchant">Merchant Name</string>
+    <string name="field_amount">Amount</string>
+    <string name="field_category">Category</string>
+    <string name="field_notes">Optional Notes</string>
+    <string name="button_record">Record Transaction</string>
+    <string name="toast_recorded">Cash transaction recorded</string>
+
+    <!-- Ghost Subscription Hunter -->
+    <string name="hunter_title">Ghost Subscription Hunter</string>
+    <string name="hunter_subtitle">Detects hidden repeating subscription drains.</string>
+    <string name="hunter_empty">No background subscriptions found yet. Import bank statements regularly to identify hidden repeat drains!</string>
+    <string name="hunter_detected">Detected %1$d potential subscription services</string>
+    <string name="hunter_potential">Potential Subscription</string>
+    <string name="hunter_frequency">Repeated %1$d times</string>
+
+    <!-- Micro Leak Detector -->
+    <string name="leak_title">Micro Leak Detector</string>
+    <string name="leak_subtitle">Identifies small repeating daily/weekly expenses.</string>
+    <string name="leak_empty">No small daily leaks detected. Record every quick cup of coffee or cab ride to uncover your hidden spending habits!</string>
+    <string name="leak_detected">Detected %1$d repeating cost leaks</string>
+    <string name="leak_severity_high">High Severity Leak</string>
+    <string name="leak_severity_medium">Medium Severity Leak</string>
+    <string name="leak_severity_low">Low Severity Leak</string>
+
+    <!-- Reports -->
+    <string name="reports_title">PocketLedger Reports</string>
+    <string name="reports_subtitle">Visual monthly overview of your transactions.</string>
+    <string name="reports_empty">Add cash records or import bank statements to generate visual category breakdowns and spend trends!</string>
+    <string name="reports_category_breakdown">Category Breakdown</string>
+    <string name="reports_weekly_trend">Weekly Expense Trend</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_title">My Profile</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_theme">Dark Theme</string>
+    <string name="profile_active_status">Active Sandbox Session</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_currency">Display Currency</string>
+    <string name="settings_notifications">Smart Notifications</string>
+    <string name="settings_notifications_desc">Daily micro leaks and payday alerts</string>
+    <string name="settings_language">App Language</string>
+    <string name="settings_language_desc">Currently set to: %1$s</string>
+    <string name="settings_wizard">Salary Setup Wizard</string>
+    <string name="settings_wizard_desc">Relaunch first-time configurations</string>
+    <string name="settings_privacy">Privacy &amp; Sandbox</string>
+    <string name="settings_privacy_desc">View cryptographic offline assurance policy</string>
+    <string name="settings_reset">Reset Onboarding (Demo Guide)</string>
+    <string name="settings_version">PocketLedger AI v1.4.0</string>
+    <string name="settings_warning">PocketLedger complies with offline sandbox environment standards. All keys and API pipelines are cryptographically sealed locally.</string>
+    <string name="dialog_select_language">Select App Language</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- Privacy Dashboard -->
+    <string name="privacy_title">Privacy Sandbox Dashboard</string>
+    <string name="privacy_subtitle">Your offline cryptographic budget protection.</string>
+    <string name="privacy_status">Status: SECURED LOCAL SANDBOX</string>
+    <string name="privacy_bullet_1_title">Offline Computation</string>
+    <string name="privacy_bullet_1_desc">No external transaction telemetry. All AI processing is rendered on-device.</string>
+    <string name="privacy_bullet_2_title">No Screen Scraping</string>
+    <string name="privacy_bullet_2_desc">Unlike other apps, PocketLedger never logs inputs from your banking app screens.</string>
+    <string name="privacy_bullet_3_title">No SMS Monitoring</string>
+    <string name="privacy_bullet_3_desc">We do not read incoming SMS messages. File statements are loaded manually.</string>
+    <string name="privacy_bullet_4_title">Local Storage Model</string>
+    <string name="privacy_bullet_4_desc">All SQLite data rows are securely preserved in the device sandbox directory.</string>
+    <string name="privacy_bullet_5_title">Cryptographic Pipeline</string>
+    <string name="privacy_bullet_5_desc">Local endpoints and credential parameters are encrypted with keystore-backed protocols.</string>
+    
+    <!-- Navigation Descriptions -->
+    <string name="nav_desc_home">Home</string>
+    <string name="nav_desc_ledger">Ledger</string>
+    <string name="nav_desc_reports">Reports</string>
+    <string name="nav_desc_profile">Profile</string>
+    <string name="nav_desc_settings">Settings</string>
+</resources>

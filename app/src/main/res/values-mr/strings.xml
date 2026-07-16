@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">पॉकेटलेझर</string>
+    <string name="financial_storytelling">वित्तीय कथाकथन</string>
+    
+    <!-- Onboarding & Splash -->
+    <string name="welcome_title">गोपनीयतेला प्राधान्य</string>
+    <string name="welcome_desc">स्क्रीन स्क्रॅपिंग नाही. एसएमएस वाचन नाही. तुमचे बँक खाते सुरक्षित आहे. पॉकेटलेझर तुमच्या डिव्हाइसवर १००% ऑफलाइन व्यवहार डेटावर प्रक्रिया करते.</string>
+    <string name="welcome_benefit1_title">सॅलरी स्टोरीटेलिंग</string>
+    <string name="welcome_benefit1_desc">स्प्रेडशीटऐवजी संवादात्मक सारांश.</string>
+    <string name="welcome_benefit2_title">गुप्त सबस्क्रिप्शन शोधक</string>
+    <string name="welcome_benefit2_desc">पार्श्वभूमीतील गळती सापळ्यांचे अचूक शोधन.</string>
+    <string name="welcome_benefit3_title">मायक्रो लीक डिटेक्टर</string>
+    <string name="welcome_benefit3_desc">लहान आवर्ती खर्च तुम्हाला रिकामे करण्यापूर्वीच पकडा.</string>
+    <string name="get_started">सुरू करा</string>
+
+    <!-- Setup Wizard -->
+    <string name="setup_title">सॅलरी सेटअप विझार्ड</string>
+    <string name="setup_subtitle">चला तुमची स्थानिक वित्तीय प्रोफाइल कॉन्फिगर करूया.</string>
+    <string name="field_name">तुमचे नाव</string>
+    <string name="field_salary_amount">मासिक निव्वळ वेतन</string>
+    <string name="field_payday">वेतन दिवस (महिन्याचा दिवस)</string>
+    <string name="field_currency">डिफॉल्ट चलन</string>
+    <string name="field_goal">मासिक बचतीचे उद्दिष्ट</string>
+    <string name="button_save_profile">प्रोफाइल जतन करा आणि सुरू करा</string>
+    <string name="validation_name_empty">कृपया तुमचे नाव प्रविष्ट करा</string>
+    <string name="validation_salary_zero">कृपया वैध वेतन रक्कम प्रविष्ट करा</string>
+    <string name="validation_payday_invalid">वेतन दिवस १ आणि ३१ दरम्यान असावा</string>
+    <string name="validation_goal_invalid">बचतीचे उद्दिष्ट वेतनापेक्षा जास्त असू शकत नाही</string>
+
+    <!-- Home Screen -->
+    <string name="home_hello">नमस्कार, %1$s!</string>
+    <string name="home_payday_countdown">वेतनासाठी दिवस: %1$d</string>
+    <string name="home_available_balance">उपलब्ध शिल्लक</string>
+    <string name="home_salary">वेतन</string>
+    <string name="home_total_spent">एकूण खर्च</string>
+    <string name="home_savings_goal">बचतीचे उद्दिष्ट: %1$s</string>
+    <string name="home_ai_story">एआय कथा</string>
+    <string name="home_refresh_ai_story">एआय कथा रीफ्रेश करा</string>
+    <string name="home_quick_actions">जलद क्रिया</string>
+    <string name="action_cash_entry">रोख खर्च जोडा</string>
+    <string name="action_statement_import">विवरण आयात करा</string>
+    <string name="action_ghost_hunter">गुप्त शोधक</string>
+    <string name="action_leak_detector">लीक डिटेक्टर</string>
+    <string name="home_financial_health">वित्तीय आरोग्य गुणसंख्या</string>
+    <string name="health_grade">ग्रेड %1$s</string>
+    <string name="health_status_good">तुमचे बजेट आरोग्य मजबूत दिसत आहे! बचत सुरू ठेवा.</string>
+    <string name="health_status_warning">तुम्ही बचतीच्या उद्दिष्टाच्या मर्यादेजवळ आहात. किरकोळ खर्च कमी करण्याचा विचार करा.</string>
+    <string name="health_status_danger">तुम्ही मासिक बचत मर्यादा ओलांडली आहे. लीक डिटेक्टर तपासा.</string>
+
+    <!-- Ledger & Timeline -->
+    <string name="ledger_title">पॉकेटलेझर टाइमलाइन</string>
+    <string name="ledger_empty">अद्याप कोणतेही व्यवहार नोंदवलेले नाहीत.</string>
+    <string name="ledger_add_first">सुरू करण्यासाठी एखादा रोख व्यवहार जोडा किंवा बँक विवरण आयात करा!</string>
+    <string name="ledger_category">श्रेणी: %1$s</string>
+    <string name="ledger_notes">टीपा: %1$s</string>
+    <string name="ledger_delete_confirm">व्यवहार हटवायचा?</string>
+
+    <!-- Cash Entry -->
+    <string name="cash_entry_title">रोख खर्च नोंदवा</string>
+    <string name="cash_entry_subtitle">सर्व लेझर प्रविष्ट्या स्थानिक पातळीवर जतन केल्या जातात.</string>
+    <string name="field_merchant">व्यापाऱ्याचे नाव</string>
+    <string name="field_amount">रक्कम</string>
+    <string name="field_category">श्रेणी</string>
+    <string name="field_notes">पर्यायी टीपा</string>
+    <string name="button_record">व्यवहार नोंदवा</string>
+    <string name="toast_recorded">रोख व्यवहार नोंदवला गेला</string>
+
+    <!-- Ghost Subscription Hunter -->
+    <string name="hunter_title">गुप्त सबस्क्रिप्शन शोधक</string>
+    <string name="hunter_subtitle">पार्श्वभूमीतील छुपे आवर्ती खर्च शोधतो.</string>
+    <string name="hunter_empty">कोणतेही सक्रिय गुप्त सबस्क्रिप्शन आढळले नाही.</string>
+    <string name="hunter_detected">%1$d संभाव्य सबस्क्रिप्शन सेवा आढळल्या</string>
+    <string name="hunter_potential">संभाव्य सबस्क्रिप्शन</string>
+    <string name="hunter_frequency">%1$d वेळा पुनरावृत्ती झाली</string>
+
+    <!-- Micro Leak Detector -->
+    <string name="leak_title">मायक्रो लीक डिटेक्टर</string>
+    <string name="leak_subtitle">दैनिक/साप्ताहिक लहान आवर्ती खर्च शोधतो.</string>
+    <string name="leak_empty">अद्याप कोणतेही गंभीर मायक्रो लीक आढळले नाही.</string>
+    <string name="leak_detected">%1$d आवर्ती खर्च गळती आढळली</string>
+    <string name="leak_severity_high">उच्च तीव्रतेची गळती</string>
+    <string name="leak_severity_medium">मध्यम तीव्रतेची गळती</string>
+    <string name="leak_severity_low">कमी तीव्रतेची गळती</string>
+
+    <!-- Reports -->
+    <string name="reports_title">पॉकेटलेझर अहवाल</string>
+    <string name="reports_subtitle">तुमच्या व्यवहारांचे मासिक दृश्य विहंगावलोकन.</string>
+    <string name="reports_empty">अहवालासाठी कोणताही व्यवहार डेटा उपलब्ध नाही.</string>
+    <string name="reports_category_breakdown">श्रेणीनुसार विश्लेषण</string>
+    <string name="reports_weekly_trend">साप्ताहिक खर्च कल</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_title">माझी प्रोफाइल</string>
+    <string name="profile_edit">प्रोफाइल संपादित करा</string>
+    <string name="profile_theme">डार्क थीम</string>
+    <string name="profile_active_status">सक्रिय सँडबॉक्स सत्र</string>
+    <string name="settings_title">सेटिंग्ज</string>
+    <string name="settings_currency">चलन प्रदर्शित करा</string>
+    <string name="settings_notifications">स्मार्ट सूचना</string>
+    <string name="settings_notifications_desc">दैनिक मायक्रो लीक आणि वेतन सूचना</string>
+    <string name="settings_language">अ‍ॅपची भाषा</string>
+    <string name="settings_language_desc">सध्या सेट आहे: %1$s</string>
+    <string name="settings_wizard">सॅलरी सेटअप विझार्ड</string>
+    <string name="settings_wizard_desc">पहिल्या वेळची कॉन्फिगरेशन पुन्हा सुरू करा</string>
+    <string name="settings_privacy">गोपनीयता आणि सँडबॉक्स</string>
+    <string name="settings_privacy_desc">ऑफलाइन क्रिप्टोग्राफिक सुरक्षा धोरण पहा</string>
+    <string name="settings_reset">ऑनबोर्डिंग रीसेट करा (डेमो मार्गदर्शक)</string>
+    <string name="settings_version">पॉकेटलेझर एआय v1.4.0</string>
+    <string name="settings_warning">पॉकेटलेझर ऑफलाइन सँडबॉक्स मानकांचे पालन करते. सर्व की आणि डेटा स्थानिक पातळीवर सुरक्षित आहेत.</string>
+    <string name="dialog_select_language">अ‍ॅपची भाषा निवडा</string>
+    <string name="dialog_cancel">रद्द करा</string>
+
+    <!-- Privacy Dashboard -->
+    <string name="privacy_title">गोपनीयता सँडबॉक्स डॅशबोर्ड</string>
+    <string name="privacy_subtitle">तुमचे ऑफलाइन क्रिप्टोग्राफिक बजेट संरक्षण.</string>
+    <string name="privacy_status">स्थिती: सुरक्षित स्थानिक सँडबॉक्स</string>
+    <string name="privacy_bullet_1_title">ऑफलाइन गणना</string>
+    <string name="privacy_bullet_1_desc">कोणतीही बाह्य व्यवहार ट्रॅकिंग नाही. सर्व एआय प्रक्रिया डिव्हाइसवरच होते.</string>
+    <string name="privacy_bullet_2_title">स्क्रीन स्क्रॅपिंग नाही</string>
+    <string name="privacy_bullet_2_desc">इतर अ‍ॅप्सप्रमाणे, पॉकेटलेझर कधीही तुमच्या बँकिंग अ‍ॅपच्या स्क्रीनवरून डेटा घेत नाही.</string>
+    <string name="privacy_bullet_3_title">एसएमएस देखरेख नाही</string>
+    <string name="privacy_bullet_3_desc">आम्ही येणारे एसएमएस वाचत नाही. बँक विवरणे व्यक्तिचलितपणे लोड केली जातात.</string>
+    <string name="privacy_bullet_4_title">स्थानिक संचय मॉडेल</string>
+    <string name="privacy_bullet_4_desc">सर्व SQLite व्यवहार डेटा डिव्हाइस सँडबॉक्स निर्देशिकेत सुरक्षितपणे ठेवला जातो.</string>
+    <string name="privacy_bullet_5_title">क्रिप्टोग्राफिक पाइपलाइन</string>
+    <string name="privacy_bullet_5_desc">स्थानिक की आणि क्रेडेंशियल्स कीस्टोर-समर्थित प्रोटोकॉलसह एन्क्रिप्ट केलेले आहेत.</string>
+    
+    <!-- Navigation Descriptions -->
+    <string name="nav_desc_home">होम</string>
+    <string name="nav_desc_ledger">लेझर</string>
+    <string name="nav_desc_reports">अहवाल</string>
+    <string name="nav_desc_profile">प्रोफाइल</string>
+    <string name="nav_desc_settings">सेटिंग्ज</string>
+</resources>

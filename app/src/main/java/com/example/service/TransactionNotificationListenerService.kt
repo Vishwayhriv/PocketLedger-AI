@@ -45,7 +45,13 @@ class TransactionNotificationListenerService : NotificationListenerService() {
                 }
 
                 // Parse the notification
-                val parsed = NotificationTransactionParser.parse(title, fullText, packageName) ?: return@launch
+                val parsed = NotificationTransactionParser.parse(title, fullText, packageName)
+                Log.d("PocketLedger", "Parsed: $parsed")
+
+                if (parsed == null) {
+                    Log.d("PocketLedger", "Parser returned NULL")
+                    return@launch
+                }
 
                 // 1. DUPLICATE DETECTION
                 val recentTransactions = database.transactionDao().getAllTransactions().first()
